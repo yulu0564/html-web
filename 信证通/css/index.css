@@ -195,7 +195,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 3px;
-    margin-left: 38px;
+    margin-left: 5px;
     vertical-align: top;
 }
 
@@ -205,6 +205,30 @@ body {
     margin-bottom: 65px;
 }
 
+.content .business div .businessCon .spanLeft {
+    position: absolute;
+    display: inline-block;
+    width: 490px;
+    height: 290px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    vertical-align: bottom;
+}
+.content .business div .businessCon .spanLeft h5 {
+    color: #fff;
+    font-size: 22px;
+    /*height: 70px;*/
+    /*padding: 3px;*/
+    /*line-height: 70px;*/
+    padding-left: 23px;
+    padding-right: 23px;
+    background: rgba(24, 44, 82, 0.5);
+    text-align: center;
+    margin-top: 220px;
+    border-radius: 3px;
+}
 .content .business div .businessCon .spanRight {
     position: absolute;
     display: inline-block;
@@ -212,7 +236,7 @@ body {
     height: 290px;
     color: #fff;
     font-size: 16px;
-    margin-left: 155px;
+    margin-left: 615px;
     margin-top: 10px;
     font-weight: 500;
     vertical-align: bottom;
@@ -224,15 +248,14 @@ body {
     /*height: 70px;*/
     /*padding: 3px;*/
     /*line-height: 70px;*/
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 23px;
+    padding-right: 23px;
     background: rgba(24, 44, 82, 0.5);
     text-align: center;
-    margin-top: 45.1%;
+    margin-top: 220px;
     border-radius: 3px;
 }
-
-.content .business div .businessCon .spanRight .showText {
+.showText {
     display: none;
     padding: 0 20px;
     font-size: 16px;
