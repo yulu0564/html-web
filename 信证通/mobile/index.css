@@ -178,6 +178,7 @@
     line-height: 25px;
     letter-spacing: 3px;
     vertical-align: top;
+    margin-top: 1%;
 }
 
 .content .business div .businessCon span h5 {
@@ -207,7 +208,7 @@
     padding-right: 5%;
     background: rgba(24, 44, 82, 0.5);
     text-align: center;
-    margin-top: 48%;
+    margin-top: 46%;
     border-radius: 3px;
 }
 
@@ -232,7 +233,7 @@
     padding-right: 5%;
     background: rgba(24, 44, 82, 0.5);
     text-align: center;
-    margin-top: 48%;
+    margin-top: 46%;
     border-radius: 3px;
 }
 
