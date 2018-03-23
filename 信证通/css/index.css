@@ -1,3 +1,7 @@
+body {
+    font-family: "Microsoft Yahei", Arial
+}
+
 .s_hd {
     margin: 0 auto;
     border-collapse: collapse;
@@ -18,6 +22,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-decoration: none;
+    font-family: Arial;
     color: #836f44;
     text-align: center;
 }
@@ -35,8 +40,8 @@
 .logo {
     float: left;
     width: 60px;
-    margin-top: -85px;
-    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: -30px;
 }
 
 .blockchain {
@@ -56,11 +61,14 @@
     background: url(../image/btnBg2.png);
     background-size: 100% 100%;
     position: absolute;
-    left: 44%;
+    /*left: 42%;*/
     bottom: 10%;
     float: left;
+    left: 50%;
+    transform: translateX(-50%);
     /*height: 92px;*/
-    width: 12%;
+    height: 92px;
+    width: 200px;
     color: #fff;
     font-size: 28px;
     text-align: center;
@@ -165,42 +173,47 @@
 .content .business {
     width: 100%;
     background: #f2f7fb;
-    padding: 60px 20% 60px 20%;
+    padding: 60px 0% 60px 0%;
 }
 
 .content .business div .businessCon {
     background: url(../image/businesses.png);
     background-size: 100% 100%;
+    left: 50%;
+    width:1110px ;
+    transform: translateX(-50%);
+    position: absolute;
     margin-top: 120px;
+    height: 317px;
     position: relative;
 }
 
 .content .business div .businessCon span {
     display: inline-block;
-    width: 40%;
+    width: 420px;
     color: #fff;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 3px;
-    margin-left: 3%;
+    margin-left: 38px;
     vertical-align: top;
 }
 
 .content .business div .businessCon span h5 {
     font-size: 22px;
     line-height: 70px;
-    margin-bottom: 10%;
+    margin-bottom: 65px;
 }
 
 .content .business div .businessCon .spanRight {
     position: absolute;
     display: inline-block;
-    width: 44.2%;
-    height: 92%;
+    width: 490px;
+    height: 290px;
     color: #fff;
     font-size: 16px;
-    margin-left: 12.4%;
-    margin-top: 1%;
+    margin-left: 155px;
+    margin-top: 10px;
     font-weight: 500;
     vertical-align: bottom;
 }
@@ -321,4 +334,8 @@
 .content.banner {
     width: 100%;
     height: 100%;
+}
+
+.arial {
+    font-family: Arial;
 }
