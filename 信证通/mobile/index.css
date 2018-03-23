@@ -175,9 +175,8 @@
     width: 40%;
     color: #fff;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 3px;
-    margin-left: 3%;
     vertical-align: top;
 }
 
@@ -187,15 +186,39 @@
     margin-bottom: 10%;
 }
 
+.content .business div .businessCon .spanLeft {
+    position: absolute;
+    display: inline-block;
+    width: 44.5%;
+    height: 92%;
+    color: #fff;
+    margin-left: 0.5%;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: bottom;
+}
+
+.content .business div .businessCon .spanLeft h5 {
+    color: #fff;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgba(24, 44, 82, 0.5);
+    text-align: center;
+    margin-top: 48%;
+    border-radius: 3px;
+}
+
 .content .business div .businessCon .spanRight {
     position: absolute;
     display: inline-block;
-    width: 44.2%;
+    width: 44.5%;
     height: 92%;
     color: #fff;
     font-size: 16px;
-    margin-left: 12.4%;
-    margin-top: 1%;
+    margin-left: 55%;
     font-weight: 500;
     vertical-align: bottom;
 }
@@ -205,13 +228,15 @@
     font-size: 22px;
     height: 50px;
     line-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
     background: rgba(24, 44, 82, 0.5);
     text-align: center;
-    margin-top: 46%;
+    margin-top: 48%;
     border-radius: 3px;
 }
 
-.content .business div .businessCon .spanRight .showText {
+.showText {
     display: none;
     padding: 0 20px;
 }
@@ -311,6 +336,7 @@
     width: 100%;
     height: 100%;
 }
-.arial{
+
+.arial {
     font-family: Arial;
 }

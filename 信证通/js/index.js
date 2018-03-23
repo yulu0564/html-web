@@ -1,9 +1,11 @@
 $(document).ready(function () {
-    // var businessCon = $("#businessCon");
-    // businessCon.ready(function () {
-    //     var width = businessCon.width();
-    //     businessCon.height(width * 53 / 185);
-    // });
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var businessCon = $("#businessCon");
+        businessCon.ready(function () {
+            var width = businessCon.width();
+            businessCon.height(width * 53 / 185);
+        });
+    }
     var innovateCon_img = $(".innovateCon-img");
     var innovateCon_span = $(".innovateCon span");
     innovateCon_img.load(function () {
@@ -42,7 +44,7 @@ $(function () {
         $('.spanRight').css('background', "rgba(24,44,82,0)");
         if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
             var divh = $("#business").height();
-            $('.spanRight h5').animate({'margin-top': divh * 0.431 + 'px'}).css('background', "rgba(24,44,82,0.5)");
+            $('.spanRight h5').animate({'margin-top': divh * 0.451 + 'px'}).css('background', "rgba(24,44,82,0.5)");
         } else {
             $('.spanRight h5').animate({'margin-top':'220px'}).css('background',"rgba(24,44,82,0.5)");
         }
@@ -60,7 +62,7 @@ $(function () {
         $('.spanLeft').css('background', "rgba(24,44,82,0)");
         if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
             var divh = $("#business").height();
-            $('.spanLeft h5').animate({'margin-top': divh * 0.431 + 'px'}).css('background', "rgba(24,44,82,0.5)");
+            $('.spanLeft h5').animate({'margin-top': divh * 0.451 + 'px'}).css('background', "rgba(24,44,82,0.5)");
         } else {
             $('.spanLeft h5').animate({'margin-top':'220px'}).css('background',"rgba(24,44,82,0.5)");
         }
