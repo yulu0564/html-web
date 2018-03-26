@@ -180,81 +180,48 @@ body {
     background: url(../image/businesses.png);
     background-size: 100% 100%;
     left: 50%;
-    width:1110px ;
+    width: 1110px;
     transform: translateX(-50%);
     position: absolute;
     margin-top: 120px;
-    height: 317px;
+    height: 300px;
     position: relative;
 }
 
 .content .business div .businessCon span {
     display: inline-block;
-    width: 420px;
+    width: 490px;
+    height: 290px;
     color: #fff;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 3px;
-    margin-left: 5px;
-    vertical-align: top;
+    vertical-align: bottom;
+    font-weight: 500;
+    position: absolute;
 }
 
 .content .business div .businessCon span h5 {
     font-size: 22px;
     line-height: 70px;
     margin-bottom: 65px;
+    color: #fff;
+    padding-left: 23px;
+    padding-right: 23px;
+    background: rgba(24, 44, 82, 0.5);
+    text-align: center;
+    margin-top: 220px;
+    border-radius: 3px;
 }
 
 .content .business div .businessCon .spanLeft {
-    position: absolute;
-    display: inline-block;
-    width: 490px;
-    height: 290px;
-    color: #fff;
-    font-size: 16px;
-    margin-top: 10px;
-    font-weight: 500;
-    vertical-align: bottom;
-}
-.content .business div .businessCon .spanLeft h5 {
-    color: #fff;
-    font-size: 22px;
-    /*height: 70px;*/
-    /*padding: 3px;*/
-    /*line-height: 70px;*/
-    padding-left: 23px;
-    padding-right: 23px;
-    background: rgba(24, 44, 82, 0.5);
-    text-align: center;
-    margin-top: 220px;
-    border-radius: 3px;
-}
-.content .business div .businessCon .spanRight {
-    position: absolute;
-    display: inline-block;
-    width: 490px;
-    height: 290px;
-    color: #fff;
-    font-size: 16px;
-    margin-left: 615px;
-    margin-top: 10px;
-    font-weight: 500;
-    vertical-align: bottom;
 }
 
-.content .business div .businessCon .spanRight h5 {
-    color: #fff;
-    font-size: 22px;
-    /*height: 70px;*/
-    /*padding: 3px;*/
-    /*line-height: 70px;*/
-    padding-left: 23px;
-    padding-right: 23px;
-    background: rgba(24, 44, 82, 0.5);
-    text-align: center;
-    margin-top: 220px;
-    border-radius: 3px;
+.content .business div .businessCon .spanRight {
+    margin-left: 610px;
 }
+
+
 .showText {
     display: none;
     padding: 0 20px;

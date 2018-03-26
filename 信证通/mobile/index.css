@@ -172,59 +172,26 @@
 
 .content .business div .businessCon span {
     display: inline-block;
-    width: 40%;
+    width: 44.2%;
     color: #fff;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 3px;
-    vertical-align: top;
-    margin-top: 1%;
-}
-
-.content .business div .businessCon span h5 {
-    font-size: 22px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    font-weight: 500;
+    height: 98%;
+    vertical-align: bottom;
+    position: absolute;
+    display: inline-block;
 }
 
 .content .business div .businessCon .spanLeft {
-    position: absolute;
-    display: inline-block;
-    width: 44.5%;
-    height: 92%;
-    color: #fff;
-    margin-left: 0.5%;
-    font-size: 16px;
-    font-weight: 500;
-    vertical-align: bottom;
-}
-
-.content .business div .businessCon .spanLeft h5 {
-    color: #fff;
-    font-size: 22px;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: rgba(24, 44, 82, 0.5);
-    text-align: center;
-    margin-top: 46%;
-    border-radius: 3px;
 }
 
 .content .business div .businessCon .spanRight {
-    position: absolute;
-    display: inline-block;
-    width: 44.5%;
-    height: 92%;
-    color: #fff;
-    font-size: 16px;
     margin-left: 55%;
-    font-weight: 500;
-    vertical-align: bottom;
 }
 
-.content .business div .businessCon .spanRight h5 {
+.content .business div .businessCon span h5 {
     color: #fff;
     font-size: 22px;
     height: 50px;
@@ -233,8 +200,10 @@
     padding-right: 5%;
     background: rgba(24, 44, 82, 0.5);
     text-align: center;
-    margin-top: 46%;
+    margin-top: 50%;
     border-radius: 3px;
+    font-size: 22px;
+    margin-bottom: 10%;
 }
 
 .showText {
