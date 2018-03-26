@@ -54,27 +54,26 @@ body {
 }
 
 .btnBox {
-    height: 92px;
+    height: 80px;
+    width: 240px;
 }
 
 .btnRight {
-    background: url(../image/btnBg2.png);
+    background: url(../image/btnBg1.png);
     background-size: 100% 100%;
     position: absolute;
-    /*left: 42%;*/
     bottom: 10%;
-    float: left;
-    left: 50%;
-    transform: translateX(-50%);
-    /*height: 92px;*/
-    height: 92px;
-    width: 200px;
     color: #fff;
+    height: 80px;
+    width: 240px;
     font-size: 28px;
     text-align: center;
-    line-height: 84px;
+    line-height: 65px;
 }
-
+.btnRight:hover {
+    background: url(../image/btnBg2.png);
+    background-size: 100% 100%;
+}
 .bannerLogo {
     width: 15%;
     left: 42.5%;

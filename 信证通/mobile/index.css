@@ -53,19 +53,24 @@
 }
 
 .btnRight {
-    background: url(../image/btnBg2.png);
+    background: url(../image/btnBg1.png);
     background-size: 100% 100%;
     position: absolute;
     left: 50%;
     bottom: 10%;
     float: left;
     transform: translate(-50%, 0%);
-    height: 92px;
-    width: 300px;
+    height: 80px;
+    width: 240px;
     color: #fff;
     font-size: 28px;
     text-align: center;
-    line-height: 84px;
+    line-height: 65px;
+}
+
+.btnRight:hover {
+    background: url(../image/btnBg2.png);
+    background-size: 100% 100%;
 }
 
 .bannerLogo {
