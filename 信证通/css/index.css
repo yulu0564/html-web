@@ -23,7 +23,7 @@ body {
     transform: translateY(-50%);
     text-decoration: none;
     font-family: Arial;
-    color: #836f44;
+    color: #636363;
     text-align: center;
 }
 
@@ -179,9 +179,7 @@ body {
 .content .business div .businessCon {
     background: url(../image/businesses.png);
     background-size: 100% 100%;
-    left: 50%;
     width: 1110px;
-    transform: translateX(-50%);
     position: absolute;
     margin-top: 120px;
     height: 300px;
@@ -295,20 +293,20 @@ body {
 }
 
 .footer .footerCon h4 {
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Arial';
     letter-spacing: 5px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .footer .footerCon p {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Arial';
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .footer .footerCon .footerCon-p {
+    text-align: center;
     margin-top: 50px;
 }
 

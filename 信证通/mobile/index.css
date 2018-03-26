@@ -269,7 +269,7 @@
 
 .footer {
     background: #084879;
-    padding: 100px 20% 60px 20%;
+    padding: 100px 5% 60px 5%
 }
 
 .footer .footerCon {
@@ -278,20 +278,20 @@
 }
 
 .footer .footerCon h4 {
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Arial';
     letter-spacing: 5px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .footer .footerCon p {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Arial';
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .footer .footerCon .footerCon-p {
+    text-align: center;
     margin-top: 50px;
 }
 
